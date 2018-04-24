@@ -1,7 +1,7 @@
 <?php 
 
 $xml = '
-	<job>
+<job>
 	<jobTitle>Sample Job</jobTitle>
 	<input>
 		<files>
@@ -17,7 +17,6 @@ $xml = '
 ';
 	
 $token = '';
-//$url = 'https://api.boxbrownie.com/v1/job';    
 $url = 'https://api.example.com/v1/job'                                                             
 $headers = ['Content-Type: application/xml','Authorization: $token'];
 $ch = curl_init($url);		

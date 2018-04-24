@@ -16,7 +16,7 @@ $xml = '
 </job>
 ';
 
-$token =  
+$token = '';
 $url = 'https://api.boxbrownie.com/v1/job';                                                                 
 $headers = ['Content-Type: application/xml','Authorization: $token'];
 $ch = curl_init($url);		
